@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Logica de programacion con JS</h1>
+
+    <script>
+      // alert("JS es un lenguaje de programacion");
+
+      function saltarLinea() {
+        document.write("<br>");
+        document.write("<br>");
+        document.write("<br>");
+      }
+
+      document.write("El promedio de edad es");
+      //   document.write("<br>");
+      // podemos invocar la funcion, para usar los 3 saltos de linea dentro de la funcion en esta parte
+      saltarLinea();
+      document.write(Math.round((20 + 30 + 45) / 3));
+
+      saltarLinea();
+      document.write("*******************************");
+
+      function imprimir(mensaje) {
+        saltarLinea();
+        document.write(mensaje);
+        saltarLinea();
+      }
+
+      imprimir("Hola Amigos");
+    </script>
+  </body>
+</html>
